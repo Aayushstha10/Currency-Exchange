@@ -15,4 +15,4 @@ A simple web app to convert currencies using real-time exchange rates.
 
 ## Screenshot
 
-![Currency Converter Screenshot](./climb.webp)
+![Currency Converter Screenshot](https://github.com/Aayushstha10/Currency-Exchange/blob/main/Currency_Exchange/clim.webp)
