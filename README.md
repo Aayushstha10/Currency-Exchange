@@ -1,6 +1,6 @@
 # Currency Converter
 
-A simple web app to convert currencies using real-time exchange rates.
+A simple web to convert currencies using real-time exchange rates.
 
 ## Features
 - Supports multiple currencies
