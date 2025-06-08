@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exchange currency</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet"></link>
+  </head>
+  
+  <body>
+    
+    <div class="container">
+      <h1>currency converter</h1>
+      <form>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" min="0" value=1 required />
+        </div>
+        <div class="dropdown">
+          <div class="from">
+            <p>form</p>
+            <div class="select-container">
+              <img src="https://flagsapi.com/US/flat/64.png" />
+              <select name="form">
+               
+              </select>
+            </div>
+          </div>
+          <i class="fa-solid fa-right-left"></i>
+          <div class="to">
+            <p>to</p>
+            <div class="select-container">
+              <img src="https://flagsapi.com/NP/flat/64.png" />
+              <select name="to">
+              
+              </select>
+            </div>
+          </div>
+          
+        </div>
+        <div class="msg">1USD = 120 NP</div>
+        <button>Exchange rates</button>
+      </form>
+    </div>
+    <script src="countrycode.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
